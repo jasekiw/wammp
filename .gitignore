@@ -1,0 +1,12 @@
+Apache24
+/php54
+/php56
+/php70
+/php71
+/php72
+/pear
+/fcgi
+node_modules
+!Apache24/conf/httpd.conf
+!Apache24/conf/extra/httpd-fcgid.conf
+/.idea

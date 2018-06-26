@@ -1,0 +1,5 @@
+###BEGIN_PHP_SNIPPET
+Define PHPRCVAR "C:\\wammp\\PHPVER"
+Define PHP_INCLUDE "C:\\wammp\\PHPVER"
+Define PHP_CGI "C:/wammp/PHPVER/php-cgi.exe"
+###END_PHP_SNIPPET
