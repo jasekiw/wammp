@@ -25,8 +25,11 @@ fs.readdirSync('./').forEach(file => {
 function promptInstall() {
   rl.question("Which php version do you want to switch to? ['" + phpInstalls.join("', '") + "']\r\n", (answer) => {
     const install = phpInstalls.find((install) => install === answer.trim());
-    if(install)
+    if(install) {
+      console.log("switching to " + install);
       swapPhpVersion(install);
+      rl.close();
+    }
     else
       promptInstall();
   });
